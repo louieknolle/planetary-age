@@ -56,4 +56,8 @@ describe('Age', () => {
   test('should correctly determine years left to live on Jupiter', () => {
     expect(age.jupiterYearsLeft()).toEqual(4);
   });
+
+  test('should correctly determine years lived past life expectancy on Jupiter', () => {
+    expect(oldAge.jupiterYearsLeft()).toEqual(2);
+  });
 });
