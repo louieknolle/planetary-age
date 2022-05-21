@@ -37,5 +37,9 @@ describe('Age', () => {
     expect(oldAge.mercuryYearsLeft()).toEqual(20);
   });
 
+  test('should correctly determine years left to live on Venus', () => {
+    expect(age.venusYearsLeft()).toEqual(228);
+  });
+
 
 });
