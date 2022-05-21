@@ -34,6 +34,8 @@ export default class Age {
     const borrowedVenusTime = Math.floor((this.earthAge - this.lifeExpectancy) * 365 / 224.7);
     if (this.earthAge <= this.lifeExpectancy) {
       return venusYearsLeft;
+    } else {
+      return borrowedVenusTime;
     }
   }
 }
