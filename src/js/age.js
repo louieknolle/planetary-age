@@ -29,4 +29,11 @@ export default class Age {
       return borrowedMercuryTime;
     }
   }
+  venusYearsLeft() {
+    const venusYearsLeft = Math.floor((this.lifeExpectancy - this.earthAge) * 365 / 224.7);
+    const borrowedVenusTime = Math.floor((this.earthAge - this.lifeExpectancy) * 365 / 224.7);
+    if (this.earthAge <= this.lifeExpectancy) {
+      return venusYearsLeft;
+    }
+  }
 }
