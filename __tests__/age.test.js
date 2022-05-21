@@ -2,8 +2,10 @@ import Age from '../src/js/age.js';
 
 describe('Age', () => {
   let age;
+  let oldAge;
   beforeEach(() => {
-    age = new Age(30, 76);
+    age = new Age(30, 85);
+    oldAge = new Age(90, 85);
   });
 
   test('should correctly create an Age object', () => {
@@ -28,7 +30,11 @@ describe('Age', () => {
   });
 
   test('should correctly determine years left to live on Mercury', () => {
-    expect(age.mercuryLifeExpectancy()).toEqual(2);
+    expect(age.mercuryYearsLeft()).toEqual(228);
+  });
+
+  test('should correctly determine years lived past life expectancy on Mercury', () => {
+    expect(oldAge.mercuryYearsLeft()).toEqual();
   });
 
 

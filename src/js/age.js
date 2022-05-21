@@ -19,4 +19,14 @@ export default class Age {
   calcJupiterAge() {
     return Math.floor(this.earthAge / 11.86);
   }
+
+  mercuryYearsLeft() {
+    const mercuryYearsLeft = Math.floor((this.lifeExpectancy - this.earthAge) * 365 / 87.97);
+    const borrowedMercuryTime = (this.earthAge - this.lifeExpectancy) * 365 / 87.97;
+    if (this.earthAge <= this.lifeExpectancy) {
+      return mercuryYearsLeft;
+    } else {
+      return borrowedMercuryTime;
+    }
+  }
 }
