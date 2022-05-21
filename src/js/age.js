@@ -43,6 +43,8 @@ export default class Age {
     const borrowedMarsTime = Math.floor((this.earthAge - this.lifeExpectancy) / 1.88);
     if (this.earthAge <= this.lifeExpectancy) {
       return marsYearsLeft;
-    } 
+    } else {
+      return borrowedMarsTime;
+    }
   }
-}
+} 
