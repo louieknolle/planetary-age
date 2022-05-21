@@ -11,4 +11,8 @@ export default class Age {
   calcVenusAge() {
     return Math.floor((this.earthAge * 365) / 224.7);
   }
+
+  calcMarsAge() {
+    return Math.floor(this.earthAge / 1.88);
+  }
 }
