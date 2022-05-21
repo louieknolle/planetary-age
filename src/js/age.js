@@ -22,7 +22,7 @@ export default class Age {
 
   mercuryYearsLeft() {
     const mercuryYearsLeft = Math.floor((this.lifeExpectancy - this.earthAge) * 365 / 87.97);
-    const borrowedMercuryTime = (this.earthAge - this.lifeExpectancy) * 365 / 87.97;
+    const borrowedMercuryTime = Math.floor((this.earthAge - this.lifeExpectancy) * 365 / 87.97);
     if (this.earthAge <= this.lifeExpectancy) {
       return mercuryYearsLeft;
     } else {

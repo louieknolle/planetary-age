@@ -34,7 +34,7 @@ describe('Age', () => {
   });
 
   test('should correctly determine years lived past life expectancy on Mercury', () => {
-    expect(oldAge.mercuryYearsLeft()).toEqual();
+    expect(oldAge.mercuryYearsLeft()).toEqual(20);
   });
 
 
