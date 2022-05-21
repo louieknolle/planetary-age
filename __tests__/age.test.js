@@ -8,7 +8,7 @@ describe('Age', () => {
 
   test('should correctly create an Age object', () => {
     expect(age.earthAge).toEqual(30);
-    expect(age.lifeExpectancy).toEqual(76);
+    expect(age.lifeExpectancy).toEqual(85);
   });
 
   test('should correctly determine age of user in Mercury years', () => {
@@ -25,6 +25,10 @@ describe('Age', () => {
 
   test('should correctly determine age of user in Jupiter years', () => {
     expect(age.calcJupiterAge()).toEqual(2);
+  });
+
+  test('should correctly determine years left to live on Mercury', () => {
+    expect(age.mercuryLifeExpectancy()).toEqual(2);
   });
 
 
