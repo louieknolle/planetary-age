@@ -19,5 +19,9 @@ describe('Age', () => {
     expect(age.calcVenusAge()).toEqual(48);
   });
 
+  test('should correctly determine age of user in Mars years', () => {
+    expect(age.calcMarsAge()).toEqual(15);
+  });
+
 
 });
