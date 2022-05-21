@@ -11,6 +11,7 @@ describe('Age', () => {
     expect(age.lifeExpectancy).toEqual(76);
   });
 
-  test('should correctly determine age of user in Mercury years')
+  test('should correctly determine age of user in Mercury years', () => {
     expect(age.calcMercuryAge()).toEqual(124);
+  });
 });

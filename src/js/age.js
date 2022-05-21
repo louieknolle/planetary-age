@@ -4,7 +4,8 @@ export default class Age {
     this.lifeExpectancy= lifeExpect;
   }
 
-  // example () {
-  //   //Example method for template
-  // }
+  calcMercuryAge() {
+    const mercuryAge = Math.floor((this.earthAge * 365) / 88);
+    return mercuryAge;
+  }
 }
