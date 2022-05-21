@@ -47,4 +47,13 @@ export default class Age {
       return borrowedMarsTime;
     }
   }
+  jupiterYearsLeft() {
+    const jupiterYearsLeft = Math.floor((this.lifeExpectancy - this.earthAge) / 11.86);
+    const borrowedJupiterTime = Math.floor((this.earthAge - this.lifeExpectancy) / 11.86);
+    if (this.earthAge <= this.lifeExpectancy) {
+      return jupiterYearsLeft;
+    } /*else {
+      return borrowedMarsTime;
+    } */
+  }
 } 

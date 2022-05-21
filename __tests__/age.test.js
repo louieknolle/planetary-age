@@ -54,6 +54,6 @@ describe('Age', () => {
   });
 
   test('should correctly determine years left to live on Jupiter', () => {
-    expect(age.jupiterYearsLeft()).toEqual(29);
+    expect(age.jupiterYearsLeft()).toEqual(4);
   });
 });
