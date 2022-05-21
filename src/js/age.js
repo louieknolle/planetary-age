@@ -38,4 +38,11 @@ export default class Age {
       return borrowedVenusTime;
     }
   }
+  marsYearsLeft() {
+    const marsYearsLeft = Math.floor((this.lifeExpectancy - this.earthAge) / 1.88);
+    const borrowedMarsTime = Math.floor((this.earthAge - this.lifeExpectancy) / 1.88);
+    if (this.earthAge <= this.lifeExpectancy) {
+      return marsYearsLeft;
+    } 
+  }
 }

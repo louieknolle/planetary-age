@@ -46,6 +46,6 @@ describe('Age', () => {
   });
 
   test('should correctly determine years left to live on Mars', () => {
-    expect(age.marsYearsLeft()).toEqual(89);
+    expect(age.marsYearsLeft()).toEqual(29);
   });
 });
