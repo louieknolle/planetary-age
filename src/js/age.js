@@ -5,7 +5,6 @@ export default class Age {
   }
 
   calcMercuryAge() {
-    const mercuryAge = Math.floor((this.earthAge * 365) / 88);
-    return mercuryAge;
+    return Math.floor((this.earthAge * 365) / 88);
   }
 }
