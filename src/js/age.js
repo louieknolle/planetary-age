@@ -5,6 +5,10 @@ export default class Age {
   }
 
   calcMercuryAge() {
-    return Math.floor((this.earthAge * 365) / 88);
+    return Math.floor((this.earthAge * 365) / 87.97);
+  }
+
+  calcVenusAge() {
+    return Math.floor((this.earthAge * 365) / 224.7);
   }
 }
