@@ -15,4 +15,8 @@ export default class Age {
   calcMarsAge() {
     return Math.floor(this.earthAge / 1.88);
   }
+
+  calcJupiterAge() {
+    return Math.floor(this.earthAge / 11.86);
+  }
 }
