@@ -2,18 +2,19 @@ export default class Age {
   constructor(age, lifeExpect) {
     this.earthAge = age;
     this.lifeExpectancy= lifeExpect;
+    this.earthMultiplier =  Math.floor((this.earthAge * 365));
   }
-
+  
   calcMercuryAge() {
-    return Math.floor((this.earthAge * 365) / 87.97);
+    return this.earthMultiplier / 87.97;
   }
 
   calcVenusAge() {
-    return Math.floor((this.earthAge * 365) / 224.7);
+    return this.earthMultiplier / 224.7;
   }
 
   calcMarsAge() {
-    return Math.floor(this.earthAge / 1.88);
+    return this.earthMultiplier / 686.2;
   }
 
   calcJupiterAge() {
