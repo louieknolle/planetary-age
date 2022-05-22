@@ -25,7 +25,7 @@ This Planetary Age Calculator will be an application designed to collect a user'
 * _Once inside the project's parent directory run the following commands in the terminal_
 * _```npm install``` to install the webpack dependencies_
 * _```npm run build``` to launch development environment_
-* _```npm test``` to run tests in age.test.js file_
+* _```npm test``` to run tests in age.test.js file using Jest testing software_
 * _```npm run start``` to launch live server once the UI is complete_
 
 ## Known Bugs
