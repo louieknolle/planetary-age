@@ -2,25 +2,26 @@
 
 #### By: Louie Knolle
 
-#### {brief description of the application}
+#### Users can find out how old they are on four other planets and what their life expectancy is on each.
 
 ## Technologies Used
 
-* HTML
-* CSS 
-* Jquery
-* Bootstrap
-* Java Script
+* Javascript
+* Jest
+* ESLint
+* Webpack
+* npm
 
 
 ## Description 
 
-{This is a detailed description of your application. Give as much detail as needed to explain what the app does as well as any other info you want users/developers to have}
+This Planetary Age Calculator will be an application designed to collect a user's age and life expectancy in their native Earth years and then return what their age is in terms of Mercury, Venus, Mars, and Jupiter years. It can also determine how many years they have left to live in each planet's years or how long they have lived past their life expectancy if they have already done so. 
+
 
 ## Setup/Installation Requirements
 
-* _This is a great place_
-* _to list setup instructions_
+* _Use a command line terminal to clone the repository from by inputting ```git clone https://github.com/louieknolle/planetary-age.git``` _
+* _
 * _in a simple_
 * _easy-to-understand_
 * _format_
