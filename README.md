@@ -27,6 +27,7 @@ This Planetary Age Calculator will be an application designed to collect a user'
 * _```npm run build``` to launch development environment_
 * _```npm test``` to run tests in age.test.js file using Jest testing software_
 * _```npm run start``` to launch live server once the UI is complete_
+* _With VSCode installed on your computer, you can then run ```code .``` into the terminal to open the files there._
 
 ## Known Bugs
 
