@@ -6,15 +6,15 @@ export default class Age {
   }
   
   calcMercuryAge() {
-    return this.earthMultiplier / 87.97;
+    return Math.floor((this.earthAge * 365) / 87.97);
   }
 
   calcVenusAge() {
-    return this.earthMultiplier / 224.7;
+    return Math.floor((this.earthAge * 365) / 224.7);
   }
 
   calcMarsAge() {
-    return this.earthMultiplier / 686.2;
+    return Math.floor(this.earthAge / 1.88);
   }
 
   calcJupiterAge() {
