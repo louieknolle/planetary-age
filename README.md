@@ -1,4 +1,4 @@
-# Application Name
+# Planetary Age Calculator
 
 #### By: Louie Knolle
 
