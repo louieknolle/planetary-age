@@ -10,7 +10,7 @@
 * Jest
 * ESLint
 * Webpack
-* npm
+* Node.js
 
 
 ## Description 
@@ -20,19 +20,21 @@ This Planetary Age Calculator will be an application designed to collect a user'
 
 ## Setup/Installation Requirements
 
-* _Use a command line terminal to clone the repository from by inputting ```git clone https://github.com/louieknolle/planetary-age.git``` _
-* _
-* _in a simple_
-* _easy-to-understand_
-* _format_
+* _Use a command line terminal to clone the repository from by inputting ```git clone https://github.com/louieknolle/planetary-age.git```_
+* _Install Node.js_
+* _Once inside the project's parent directory run the following commands in the terminal_
+* _```npm install``` to install the webpack dependencies_
+* _```npm run build``` to launch development environment_
+* _```npm test``` to run tests in age.test.js file_
+* _```npm run start``` to launch live server once the UI is complete_
 
 ## Known Bugs
 
-* _Any known issues_
-* _should go here_
+* _User interface is not yet complete_
 
 ## License
 
-_{Let people know what to do if they run into any issues or have questions, ideas or concerns.  Encourage them to contact you or make a contribution to the code.}_
+_Email knollelw@gmail.com with any comments or contributions_
+_This software is licensed under the MIT license_
 
-Copyright (c) _date_ _author name(s)_
+Copyright (c) _2022_ _Louie Knolle_
