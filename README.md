@@ -10,7 +10,7 @@
 * Jest
 * ESLint
 * Webpack
-* Node.js
+* Node package manager
 
 
 ## Description 
